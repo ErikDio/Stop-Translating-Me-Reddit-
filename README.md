@@ -23,7 +23,7 @@ https://www.reddit.com/r/example/comments/abc123/post_title/?tl=original
 1. Clone or download this repository.
 2. Open Chrome and go to `chrome://extensions/`.
 3. Enable **Developer mode** (top right).
-4. Click **Load unpacked** and select the project folder.
+4. Click **Load unpacked** and select the folder `stop-translating-me` inside this repository.
 5. Visit any Reddit post with a translated URL to test it.
 
 ## 💻 Browser Compatibility
