@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Stop Translating Me (Reddit)",
+  "version": "1.0.2",
+  "description": "Prevents Reddit from auto translating posts.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["*://www.reddit.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
